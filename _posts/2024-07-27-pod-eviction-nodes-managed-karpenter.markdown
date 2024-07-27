@@ -16,7 +16,7 @@ description: Pod Eviction on nodes managed by Karpenter
 
 ## Summary:
 
-You can pick as item to see how to apply in markdown.
+During the development phase for one of our clients, we encountered issues with pods being evicted on nodes managed by Karpenter. This blog delves into the details of the problem, the various components involved, and the steps we took to resolve it.
 
 #### Especial Elements
 - [Issue Description](#issuedesc)
