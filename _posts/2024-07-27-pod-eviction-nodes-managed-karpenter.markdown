@@ -1,7 +1,7 @@
 ---
 title: "Pod Eviction on nodes managed by Karpenter"
 layout: post
-date: 2024-07-27 16:00
+date: 2024-07-26 16:00
 image: /assets/images/markdown.jpg
 headerImage: false
 hidden: false
