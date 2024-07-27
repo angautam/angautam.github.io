@@ -1,7 +1,7 @@
 ---
-title: "GitOps with ArgoCD"
+title: "Pod Eviction on nodes managed by Karpenter"
 layout: post
-date: 2016-02-24 22:48
+date: 2024-07-27 22:48
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -18,7 +18,7 @@ description: Markdown summary with different options
 You can pick as item to see how to apply in markdown.
 
 #### Especial Elements
-- [Evidence](#evidence)
+- [Issue Description](#issuedesc)
 - [Side-by-Side](#side-by-side)
 - [Star](#star)
 - [Especial Breaker](#especial-breaker)
@@ -36,7 +36,7 @@ You can pick as item to see how to apply in markdown.
 
 You can try the evidence!
 
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+<span class="issuedesc">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
 
 {% highlight html %}
 <span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
