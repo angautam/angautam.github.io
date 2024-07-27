@@ -1,5 +1,5 @@
 ---
-title: "Test123"
+title: "GitOps with ArgoCD"
 layout: post
 date: 2016-02-24 22:48
 image: /assets/images/markdown.jpg
@@ -54,7 +54,7 @@ Like the [Medium](https://medium.com/) component.
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Photo by Anurag Gautam</figcaption>
     </div>
 
     <div class="toright">
