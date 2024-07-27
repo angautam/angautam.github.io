@@ -1,16 +1,17 @@
 ---
 title: "Pod Eviction on nodes managed by Karpenter"
 layout: post
-date: 2024-07-27 22:48
+date: 2024-07-27 16:00
 image: /assets/images/markdown.jpg
 headerImage: false
+hidden: false
 tag:
-- markdown
-- components
-- extra
+- karpenter
+- kubernetes
+- EKS
 category: blog
 author: anuraggautam
-description: Markdown summary with different options
+description: Pod Eviction on nodes managed by Karpenter
 ---
 
 ## Summary:
@@ -32,14 +33,14 @@ You can pick as item to see how to apply in markdown.
 
 ---
 
-## Evidence
+## Issue Description
 
 You can try the evidence!
 
 <span class="issuedesc">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
 
 {% highlight html %}
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+<span class="issuedesc">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
 {% endhighlight %}
 
 ---
