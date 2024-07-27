@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-27T17:24:43+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Anurag Gautam</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Pod Eviction on nodes managed by Karpenter</title><link href="http://localhost:4000/pod-eviction-nodes-managed-karpenter/" rel="alternate" type="text/html" title="Pod Eviction on nodes managed by Karpenter" /><published>2024-07-26T16:00:00+02:00</published><updated>2024-07-26T16:00:00+02:00</updated><id>http://localhost:4000/pod-eviction-nodes-managed-karpenter</id><content type="html" xml:base="http://localhost:4000/pod-eviction-nodes-managed-karpenter/"><![CDATA[<h2 id="summary">Summary:</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-27T21:36:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Anurag Gautam</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">ArmoSec/Kubescape for Kubernetes Security</title><link href="http://localhost:4000/armoSec-for-kubernetes-security/" rel="alternate" type="text/html" title="ArmoSec/Kubescape for Kubernetes Security" /><published>2024-07-26T16:00:00+02:00</published><updated>2024-07-26T16:00:00+02:00</updated><id>http://localhost:4000/armoSec-for-kubernetes-security</id><content type="html" xml:base="http://localhost:4000/armoSec-for-kubernetes-security/"><![CDATA[<h2 id="summary">Summary:</h2>
+
+<p>During the development phase for one of our clients, we encountered issues with pods being evicted on nodes managed by Karpenter. This blog delves into the details of the problem, the various components involved, and the steps we took to resolve it.</p>
+
+<h4 id="topics">Topics</h4>
+<ul>
+  <li><a href="#issuedescription">Issue Description</a></li>
+  <li><a href="#whatiskarpenter">What is Karpenter?</a></li>
+  <li><a href="#solution">Solution</a></li>
+</ul>
+
+<h2 id="issue-description">Issue Description</h2>
+
+<p>You can try the evidence!</p>
+
+<p><span class="issuedescription">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span></p>
+
+<h2 id="what-is-karpenter">What is Karpenter?</h2>
+
+<p><span class="whatiskarpenter">Karpenter is an open-source, high-performance Kubernetes cluster autoscaler developed by AWS. Designed to simplify the process of managing compute resources within a Kubernetes environment, Karpenter dynamically provisions and manages nodes based on the real-time needs of your cluster.</span></p>
+
+<p>Unlike traditional autoscalers that work with predefined node groups, Karpenter evaluates the resource requirements of pending pods and intelligently launches the most suitable instances. This approach ensures that your applications have the right amount of compute capacity at the right time, reducing the risk of over-provisioning and under-utilization.</p>
+
+<p>Key features of Karpenter include:</p>
+
+<p>Dynamic Scaling: Karpenter responds to changes in pod demand by launching or terminating nodes quickly, ensuring optimal resource utilization.
+Custom Resource Definitions (CRDs): Karpenter uses Kubernetes CRDs to manage its configuration and state, allowing for seamless integration with your existing Kubernetes workflows.
+Cost Efficiency: By dynamically adjusting node sizes and types, Karpenter helps minimize costs associated with over-provisioning while meeting application performance requirements.
+Flexibility: Karpenter supports a wide range of instance types and sizes, making it adaptable to various workloads and performance needs.
+Simplicity: With Karpenter, there’s no need to manually manage node groups or worry about scaling policies. It automatically makes decisions based on real-time data, simplifying cluster management.
+In essence, Karpenter helps you achieve a balance between resource efficiency and application performance, making it a valuable tool for anyone running Kubernetes at scale.&lt;/span&gt;</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>You can try the evidence!</p>
+
+<p><span class="solution">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span></p>]]></content><author><name>anuraggautam</name></author><category term="project" /><category term="karpenter" /><category term="kubernetes" /><category term="EKS" /><summary type="html"><![CDATA[ArmoSec/Kubescape for Kubernetes Security]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Infratructure Automation with Terraform and CDKTF</title><link href="http://localhost:4000/cdktf/" rel="alternate" type="text/html" title="Infratructure Automation with Terraform and CDKTF" /><published>2024-07-26T16:00:00+02:00</published><updated>2024-07-26T16:00:00+02:00</updated><id>http://localhost:4000/cdktf</id><content type="html" xml:base="http://localhost:4000/cdktf/"><![CDATA[<h2 id="summary">Summary:</h2>
+
+<p>During the development phase for one of our clients, we encountered issues with pods being evicted on nodes managed by Karpenter. This blog delves into the details of the problem, the various components involved, and the steps we took to resolve it.</p>
+
+<h4 id="topics">Topics</h4>
+<ul>
+  <li><a href="#issuedescription">Issue Description</a></li>
+  <li><a href="#whatiskarpenter">What is Karpenter?</a></li>
+  <li><a href="#solution">Solution</a></li>
+</ul>
+
+<h2 id="issue-description">Issue Description</h2>
+
+<p>You can try the evidence!</p>
+
+<p><span class="issuedescription">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span></p>
+
+<h2 id="what-is-karpenter">What is Karpenter?</h2>
+
+<p><span class="whatiskarpenter">Karpenter is an open-source, high-performance Kubernetes cluster autoscaler developed by AWS. Designed to simplify the process of managing compute resources within a Kubernetes environment, Karpenter dynamically provisions and manages nodes based on the real-time needs of your cluster.</span></p>
+
+<p>Unlike traditional autoscalers that work with predefined node groups, Karpenter evaluates the resource requirements of pending pods and intelligently launches the most suitable instances. This approach ensures that your applications have the right amount of compute capacity at the right time, reducing the risk of over-provisioning and under-utilization.</p>
+
+<p>Key features of Karpenter include:</p>
+
+<p>Dynamic Scaling: Karpenter responds to changes in pod demand by launching or terminating nodes quickly, ensuring optimal resource utilization.
+Custom Resource Definitions (CRDs): Karpenter uses Kubernetes CRDs to manage its configuration and state, allowing for seamless integration with your existing Kubernetes workflows.
+Cost Efficiency: By dynamically adjusting node sizes and types, Karpenter helps minimize costs associated with over-provisioning while meeting application performance requirements.
+Flexibility: Karpenter supports a wide range of instance types and sizes, making it adaptable to various workloads and performance needs.
+Simplicity: With Karpenter, there’s no need to manually manage node groups or worry about scaling policies. It automatically makes decisions based on real-time data, simplifying cluster management.
+In essence, Karpenter helps you achieve a balance between resource efficiency and application performance, making it a valuable tool for anyone running Kubernetes at scale.&lt;/span&gt;</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>You can try the evidence!</p>
+
+<p><span class="solution">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span></p>]]></content><author><name>anuraggautam</name></author><category term="project" /><category term="karpenter" /><category term="kubernetes" /><category term="EKS" /><summary type="html"><![CDATA[Infratructure Automation with Terraform and CDKTF]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">GitOps with ArgoCD</title><link href="http://localhost:4000/gitops-with-argocd-copy/" rel="alternate" type="text/html" title="GitOps with ArgoCD" /><published>2024-07-26T16:00:00+02:00</published><updated>2024-07-26T16:00:00+02:00</updated><id>http://localhost:4000/gitops-with-argocd%20copy</id><content type="html" xml:base="http://localhost:4000/gitops-with-argocd-copy/"><![CDATA[<h2 id="summary">Summary:</h2>
+
+<p>During the development phase for one of our clients, we encountered issues with pods being evicted on nodes managed by Karpenter. This blog delves into the details of the problem, the various components involved, and the steps we took to resolve it.</p>
+
+<h4 id="topics">Topics</h4>
+<ul>
+  <li><a href="#issuedescription">Issue Description</a></li>
+  <li><a href="#whatiskarpenter">What is Karpenter?</a></li>
+  <li><a href="#solution">Solution</a></li>
+</ul>
+
+<h2 id="issue-description">Issue Description</h2>
+
+<p>You can try the evidence!</p>
+
+<p><span class="issuedescription">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span></p>
+
+<h2 id="what-is-karpenter">What is Karpenter?</h2>
+
+<p><span class="whatiskarpenter">Karpenter is an open-source, high-performance Kubernetes cluster autoscaler developed by AWS. Designed to simplify the process of managing compute resources within a Kubernetes environment, Karpenter dynamically provisions and manages nodes based on the real-time needs of your cluster.</span></p>
+
+<p>Unlike traditional autoscalers that work with predefined node groups, Karpenter evaluates the resource requirements of pending pods and intelligently launches the most suitable instances. This approach ensures that your applications have the right amount of compute capacity at the right time, reducing the risk of over-provisioning and under-utilization.</p>
+
+<p>Key features of Karpenter include:</p>
+
+<p>Dynamic Scaling: Karpenter responds to changes in pod demand by launching or terminating nodes quickly, ensuring optimal resource utilization.
+Custom Resource Definitions (CRDs): Karpenter uses Kubernetes CRDs to manage its configuration and state, allowing for seamless integration with your existing Kubernetes workflows.
+Cost Efficiency: By dynamically adjusting node sizes and types, Karpenter helps minimize costs associated with over-provisioning while meeting application performance requirements.
+Flexibility: Karpenter supports a wide range of instance types and sizes, making it adaptable to various workloads and performance needs.
+Simplicity: With Karpenter, there’s no need to manually manage node groups or worry about scaling policies. It automatically makes decisions based on real-time data, simplifying cluster management.
+In essence, Karpenter helps you achieve a balance between resource efficiency and application performance, making it a valuable tool for anyone running Kubernetes at scale.&lt;/span&gt;</p>
+
+<h2 id="solution">Solution</h2>
+
+<p>You can try the evidence!</p>
+
+<p><span class="solution">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span></p>]]></content><author><name>anuraggautam</name></author><category term="project" /><category term="karpenter" /><category term="kubernetes" /><category term="EKS" /><summary type="html"><![CDATA[GitOps with ArgoCD]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pod Eviction on nodes managed by Karpenter</title><link href="http://localhost:4000/pod-eviction-nodes-managed-karpenter-copy/" rel="alternate" type="text/html" title="Pod Eviction on nodes managed by Karpenter" /><published>2024-07-26T16:00:00+02:00</published><updated>2024-07-26T16:00:00+02:00</updated><id>http://localhost:4000/pod-eviction-nodes-managed-karpenter%20copy</id><content type="html" xml:base="http://localhost:4000/pod-eviction-nodes-managed-karpenter-copy/"><![CDATA[<h2 id="summary">Summary:</h2>
 
 <p>During the development phase for one of our clients, we encountered issues with pods being evicted on nodes managed by Karpenter. This blog delves into the details of the problem, the various components involved, and the steps we took to resolve it.</p>
 

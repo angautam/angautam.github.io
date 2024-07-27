@@ -24,7 +24,5 @@ Anurag has helped organizations on their cloud journey, automation, and cloud na
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/angautam/replace-string-api/tree/main">Replace String API microservice</a></li>
 </ul>
